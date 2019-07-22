@@ -18,7 +18,6 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
         minSdkVersion rootProject.ext.minSdkVersion
@@ -48,5 +47,3 @@ dependencies {
 
     implementation "com.android.support:support-compat:$rootProject.ext.supportLibVersion"
 }
-
-apply from: 'https://raw.githubusercontent.com/nisrulz/JCenter/master/nishant-config.gradle'
